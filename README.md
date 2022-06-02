@@ -3,7 +3,10 @@
 
 
 ## Rock-Paper-Scissors
-    Rock-Paper-Scissors is a simple two-player game where, at a signal, players make figures with their hands, representing a rock, a piece of paper, or a pair of scissors. The winner is determined according to a set of rules. Please visit [Official Rules], (https://wrpsa.com/the-official-rules-of-rock-paper-scissors/) to learn more about the game and how to win before playing it. 
+    Rock-Paper-Scissors is a simple two-player game where, at a signal, players make figures with their hands,\
+    These figures represent a rock, a piece of paper, or a pair of scissors.\
+    The winner is determined according to a set of rules.\
+    Please visit [Official Rules], (https://wrpsa.com/the-official-rules-of-rock-paper-scissors/) to learn more about the game and how to win before playing it. 
 
 
 ### Prerequisites
