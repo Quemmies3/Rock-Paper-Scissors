@@ -2,11 +2,12 @@
 import random
 
 # Print multiline instruction
-print("Winning Rules of the Rock paper scissors game as follows: \n"
+print("\nWinning Rules of the Rock paper scissors game as follows: \n"
             +"Rock vs Paper->Paper wins \n"
             + "Rock vs Scissors->Rock wins \n"
             +"Paper vs Scissors->Scissors wins \n"
-            +"If the two players choose the same “character” it’s a tie, and the game repeats. \n")
+            +"If the two players choose the same “character” it's a tie, and the game repeats. \n"
+            +"After an invalid character has been played, click enter to continue with the game.\n")
 
 #create a list of play options
 p = ["R", "P", "S"]
@@ -30,9 +31,16 @@ while player == False:
         choice_name = 'Scissors'
     else:
         print("That's not a valid choice. Check your input and put a valid play!")
-        print(input(" "))
+        print(input("\nClick enter to continue")) 
         choice = input("User turn: ")
         player = False
+
+        if choice == "R":
+            choice_name = 'Rock'
+        elif choice == "P":
+            choice_name = 'Paper'
+        elif choice == "S":
+            choice_name = 'Scissors'
 
     # print user choice
     print("user choice is: " + choice_name)
